@@ -35,6 +35,7 @@
             this.btnluu_add = new DevExpress.XtraEditors.SimpleButton();
             this.txttimkiem = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
+            this.btnHuy = new DevExpress.XtraEditors.SimpleButton();
             this.txtslsp = new System.Windows.Forms.TextBox();
             this.chitietsp = new System.Windows.Forms.LinkLabel();
             this.txtmalsp = new System.Windows.Forms.TextBox();
@@ -50,7 +51,6 @@
             this.label1 = new System.Windows.Forms.Label();
             this.errpro_nv = new System.Windows.Forms.ErrorProvider(this.components);
             this.panel1 = new System.Windows.Forms.Panel();
-            this.btnHuy = new DevExpress.XtraEditors.SimpleButton();
             this.panel2.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgv_loaisp)).BeginInit();
@@ -66,6 +66,7 @@
             this.btnsua.Size = new System.Drawing.Size(113, 23);
             this.btnsua.TabIndex = 21;
             this.btnsua.Text = "Sửa";
+            this.btnsua.Click += new System.EventHandler(this.btnsua_Click);
             // 
             // btnthem
             // 
@@ -74,6 +75,7 @@
             this.btnthem.Size = new System.Drawing.Size(113, 23);
             this.btnthem.TabIndex = 23;
             this.btnthem.Text = "Thêm";
+            this.btnthem.Click += new System.EventHandler(this.btnthem_Click);
             // 
             // btnxoa
             // 
@@ -83,6 +85,7 @@
             this.btnxoa.Size = new System.Drawing.Size(113, 23);
             this.btnxoa.TabIndex = 20;
             this.btnxoa.Text = "Xóa";
+            this.btnxoa.Click += new System.EventHandler(this.btnxoa_Click);
             // 
             // btnluu_add
             // 
@@ -99,6 +102,7 @@
             this.txttimkiem.Name = "txttimkiem";
             this.txttimkiem.Size = new System.Drawing.Size(215, 20);
             this.txttimkiem.TabIndex = 9;
+            this.txttimkiem.TextChanged += new System.EventHandler(this.txttimkiem_TextChanged);
             // 
             // panel2
             // 
@@ -122,6 +126,15 @@
             this.panel2.Size = new System.Drawing.Size(676, 628);
             this.panel2.TabIndex = 27;
             // 
+            // btnHuy
+            // 
+            this.btnHuy.Location = new System.Drawing.Point(560, 303);
+            this.btnHuy.Name = "btnHuy";
+            this.btnHuy.Size = new System.Drawing.Size(113, 23);
+            this.btnHuy.TabIndex = 29;
+            this.btnHuy.Text = "Hủy";
+            this.btnHuy.Click += new System.EventHandler(this.btnHuy_Click);
+            // 
             // txtslsp
             // 
             this.txtslsp.Location = new System.Drawing.Point(168, 173);
@@ -139,6 +152,7 @@
             this.chitietsp.TabIndex = 27;
             this.chitietsp.TabStop = true;
             this.chitietsp.Text = "xem chi tiết";
+            this.chitietsp.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.chitietsp_LinkClicked);
             // 
             // txtmalsp
             // 
@@ -173,6 +187,7 @@
             this.dtgv_loaisp.Name = "dtgv_loaisp";
             this.dtgv_loaisp.Size = new System.Drawing.Size(661, 248);
             this.dtgv_loaisp.TabIndex = 0;
+            this.dtgv_loaisp.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgv_loaisp_CellContentClick);
             // 
             // cbbkho
             // 
@@ -242,14 +257,6 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(678, 46);
             this.panel1.TabIndex = 26;
-            // 
-            // btnHuy
-            // 
-            this.btnHuy.Location = new System.Drawing.Point(560, 303);
-            this.btnHuy.Name = "btnHuy";
-            this.btnHuy.Size = new System.Drawing.Size(113, 23);
-            this.btnHuy.TabIndex = 29;
-            this.btnHuy.Text = "Hủy";
             // 
             // LoaiSanPham
             // 

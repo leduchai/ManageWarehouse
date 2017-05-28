@@ -223,7 +223,7 @@ namespace WindowsFormsApplication_QuanLyNhapHang
         private void btnxoa_Click(object sender, EventArgs e)
         {
             //Bật Message Box cảnh báo người sử dụng
-            if (MessageBox.Show("Bạn có chắc chắn xóa mã mặt hàng " + txtmasp.Text + " không? Nếu có ấn nút Lưu, không thì ấn nút Hủy", "Xóa sản phẩm", MessageBoxButtons.YesNo) == DialogResult.Yes)
+            if (MessageBox.Show("Bạn có chắc chắn xóa Sản Phẩm " + txtmasp.Text + " không? Nếu có ấn nút Lưu, không thì ấn nút Hủy", "Xóa sản phẩm", MessageBoxButtons.YesNo) == DialogResult.Yes)
             {
                 btnthem.Enabled = false;
                 btnsua.Enabled = false;

@@ -111,7 +111,7 @@ namespace WindowsFormsApplication_QuanLyNhapHang
             KhachHang nv = new KhachHang();
             tabPage1.Controls.Add(nv);
             tabPage1.Text = "Khách Hàng";
-            if(tabPage1.Li)
+            
 
             tabPage2.Controls.Clear();
             NhaCungCap ncc = new NhaCungCap();

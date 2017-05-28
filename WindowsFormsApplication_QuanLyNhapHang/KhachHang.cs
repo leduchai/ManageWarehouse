@@ -13,7 +13,7 @@ namespace WindowsFormsApplication_QuanLyNhapHang
 {
     public partial class KhachHang : UserControl
     {
-        SqlConnection conn = new SqlConnection(@"Data Source=KHANGTRAN\SQLEXPRESS;Initial Catalog=ManageWarehouse;Integrated Security=True");
+        SqlConnection conn = new SqlConnection(@"Data Source=DESKTOP-GQ1HP6Q\SQLEXPRESS;Initial Catalog=ManageWarehouse;Integrated Security=True");
         SqlCommand comm;
         SqlDataAdapter sda;
         DataSet ds;
