@@ -33,11 +33,7 @@ namespace WindowsFormsApplication_QuanLyNhapHang
 
         private void NhanVien_Load(object sender, EventArgs e)
         {
-<<<<<<< HEAD
-            scon = new SqlConnection(@"server=DESKTOP-RJ3K5CJ; database = ManageWarehouse; trusted_connection=true");
-=======
-            scon = new SqlConnection(@"Data Source=KHANGTRAN\SQLEXPRESS;Initial Catalog=ManageWarehouse;Integrated Security=True");
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
+            scon = new SqlConnection(@"server=DESKTOP-GQ1HP6Q\SQLEXPRESS;Initial Catalog=ManageWarehouse;Integrated Security=True");
             // co 2 override: 1 cai can tai khoan 1 cai ko
 
             scon.Open();            //  nen  kiem tra trang thai cua no da mo hay chua truoc khi mo
@@ -425,6 +421,21 @@ namespace WindowsFormsApplication_QuanLyNhapHang
             sc.ExecuteNonQuery();
 
             LoadData();
+        }
+
+        private void dtgv_nv_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void panel2_Paint(object sender, PaintEventArgs e)
+        {
+
+        }
+
+        private void cbbkho_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

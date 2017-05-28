@@ -181,6 +181,7 @@
             this.cbbkho.Name = "cbbkho";
             this.cbbkho.Size = new System.Drawing.Size(200, 21);
             this.cbbkho.TabIndex = 17;
+            this.cbbkho.SelectedIndexChanged += new System.EventHandler(this.cbbkho_SelectedIndexChanged);
             // 
             // cbbchucvu
             // 
@@ -244,11 +245,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-<<<<<<< HEAD
             this.panel1.Size = new System.Drawing.Size(676, 46);
-=======
-            this.panel1.Size = new System.Drawing.Size(676, 56);
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             this.panel1.TabIndex = 24;
             // 
             // txttimkiem
@@ -283,16 +280,11 @@
             this.panel2.Controls.Add(this.label5);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Dock = System.Windows.Forms.DockStyle.Fill;
-<<<<<<< HEAD
             this.panel2.Location = new System.Drawing.Point(0, 46);
             this.panel2.Name = "panel2";
             this.panel2.Size = new System.Drawing.Size(676, 628);
-=======
-            this.panel2.Location = new System.Drawing.Point(0, 56);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(676, 618);
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             this.panel2.TabIndex = 25;
+            this.panel2.Paint += new System.Windows.Forms.PaintEventHandler(this.panel2_Paint);
             // 
             // txtmanv
             // 
@@ -329,6 +321,7 @@
             this.dtgv_nv.Size = new System.Drawing.Size(661, 248);
             this.dtgv_nv.TabIndex = 0;
             this.dtgv_nv.CellClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgv_nv_CellClick);
+            this.dtgv_nv.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgv_nv_CellContentClick);
             // 
             // errpro_nv
             // 

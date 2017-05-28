@@ -12,11 +12,6 @@ namespace WindowsFormsApplication_QuanLyNhapHang
 {
     public partial class Form_Start : Form
     {
-<<<<<<< HEAD
-        public static bool laphoadon;
-
-=======
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
         public Form_Start()
         {
             InitializeComponent();
@@ -109,25 +104,7 @@ namespace WindowsFormsApplication_QuanLyNhapHang
             NhanVien nv = new NhanVien();
             tabPage1.Controls.Add(nv);
         }
-<<<<<<< HEAD
 
-=======
-        private void itemnhacc_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
-        {
-           
-            tabPage1.Controls.Clear();
-            KhachHang nv = new KhachHang();
-            tabPage1.Controls.Add(nv);
-            tabPage1.Text = "Khách Hàng";
-            
-
-            tabPage2.Controls.Clear();
-            NhaCungCap ncc = new NhaCungCap();
-            tabPage2.Controls.Add(ncc);
-            tabPage2.Text = "Nhà Cung Cấp";
-            
-        }
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
         private void itemhome_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
         {
           
@@ -156,19 +133,10 @@ namespace WindowsFormsApplication_QuanLyNhapHang
 
             this.tabControl1.SelectedIndex = 0;
         }
-<<<<<<< HEAD
 
-        private void itemhdn_ItemClick(object sender, DevExpress.XtraEditors.TileItemEventArgs e)
+        private void tabPage2_Click(object sender, EventArgs e)
         {
-            tabControl1.TabPages.Add("tabPage3");
-
-
-            tabPage1.Controls.Clear();
-            HoaDonNhap kh = new HoaDonNhap();
-            tabPage1.Controls.Add(kh);
 
         }
-=======
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
     }
 }

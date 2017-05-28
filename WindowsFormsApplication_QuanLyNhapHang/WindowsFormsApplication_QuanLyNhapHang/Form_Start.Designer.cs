@@ -30,27 +30,6 @@
         {
             this.components = new System.ComponentModel.Container();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form_Start));
-<<<<<<< HEAD
-            DevExpress.XtraEditors.TileItemElement tileItemElement16 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement17 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement18 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement19 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement20 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement21 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemFrame tileItemFrame5 = new DevExpress.XtraEditors.TileItemFrame();
-            DevExpress.XtraEditors.TileItemElement tileItemElement22 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemFrame tileItemFrame6 = new DevExpress.XtraEditors.TileItemFrame();
-            DevExpress.XtraEditors.TileItemElement tileItemElement23 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemFrame tileItemFrame7 = new DevExpress.XtraEditors.TileItemFrame();
-            DevExpress.XtraEditors.TileItemElement tileItemElement24 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemFrame tileItemFrame8 = new DevExpress.XtraEditors.TileItemFrame();
-            DevExpress.XtraEditors.TileItemElement tileItemElement25 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement26 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement27 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement28 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement29 = new DevExpress.XtraEditors.TileItemElement();
-            DevExpress.XtraEditors.TileItemElement tileItemElement30 = new DevExpress.XtraEditors.TileItemElement();
-=======
             DevExpress.XtraEditors.TileItemElement tileItemElement1 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TileItemElement tileItemElement2 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TileItemElement tileItemElement3 = new DevExpress.XtraEditors.TileItemElement();
@@ -70,7 +49,6 @@
             DevExpress.XtraEditors.TileItemElement tileItemElement13 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TileItemElement tileItemElement14 = new DevExpress.XtraEditors.TileItemElement();
             DevExpress.XtraEditors.TileItemElement tileItemElement15 = new DevExpress.XtraEditors.TileItemElement();
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             this.tileformstart = new DevExpress.XtraEditors.TileControl();
             this.tileGroup2 = new DevExpress.XtraEditors.TileGroup();
             this.itemkhohang = new DevExpress.XtraEditors.TileItem();
@@ -139,15 +117,9 @@
             // 
             this.itemkhohang.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("itemkhohang.BackgroundImage")));
             this.itemkhohang.BackgroundImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopCenter;
-<<<<<<< HEAD
-            tileItemElement16.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Bottom;
-            tileItemElement16.Text = "Kho Hàng";
-            this.itemkhohang.Elements.Add(tileItemElement16);
-=======
             tileItemElement1.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Bottom;
             tileItemElement1.Text = "Kho Hàng";
             this.itemkhohang.Elements.Add(tileItemElement1);
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             this.itemkhohang.Enabled = false;
             this.itemkhohang.Id = 0;
             this.itemkhohang.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
@@ -158,15 +130,9 @@
             // 
             this.itemsp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("itemsp.BackgroundImage")));
             this.itemsp.BackgroundImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopCenter;
-<<<<<<< HEAD
-            tileItemElement17.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Bottom;
-            tileItemElement17.Text = "Sản Phẩm-Loại SP";
-            this.itemsp.Elements.Add(tileItemElement17);
-=======
             tileItemElement2.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Bottom;
             tileItemElement2.Text = "Sản Phẩm-Loại SP";
             this.itemsp.Elements.Add(tileItemElement2);
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             this.itemsp.Id = 2;
             this.itemsp.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
             this.itemsp.Name = "itemsp";
@@ -176,57 +142,31 @@
             // 
             this.itemnhacc.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("itemnhacc.BackgroundImage")));
             this.itemnhacc.BackgroundImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopCenter;
-<<<<<<< HEAD
-            tileItemElement18.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Bottom;
-            tileItemElement18.Text = "Nhà CC-Khách Hàng";
-            this.itemnhacc.Elements.Add(tileItemElement18);
-            this.itemnhacc.Id = 4;
-            this.itemnhacc.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
-            this.itemnhacc.Name = "itemnhacc";
-=======
             tileItemElement3.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Bottom;
             tileItemElement3.Text = "Nhà CC-Khách Hàng";
             this.itemnhacc.Elements.Add(tileItemElement3);
             this.itemnhacc.Id = 4;
             this.itemnhacc.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
             this.itemnhacc.Name = "itemnhacc";
-            this.itemnhacc.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.itemnhacc_ItemClick);
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             // 
             // itemhdn
             // 
             this.itemhdn.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("itemhdn.BackgroundImage")));
             this.itemhdn.BackgroundImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopCenter;
-<<<<<<< HEAD
-            tileItemElement19.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Bottom;
-            tileItemElement19.Text = "Hóa Đơn Nhập";
-            this.itemhdn.Elements.Add(tileItemElement19);
-            this.itemhdn.Id = 5;
-            this.itemhdn.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
-            this.itemhdn.Name = "itemhdn";
-            this.itemhdn.ItemClick += new DevExpress.XtraEditors.TileItemClickEventHandler(this.itemhdn_ItemClick);
-=======
             tileItemElement4.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Bottom;
             tileItemElement4.Text = "Hóa Đơn Nhập";
             this.itemhdn.Elements.Add(tileItemElement4);
             this.itemhdn.Id = 5;
             this.itemhdn.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
             this.itemhdn.Name = "itemhdn";
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             // 
             // itemnv
             // 
             this.itemnv.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("itemnv.BackgroundImage")));
             this.itemnv.BackgroundImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopCenter;
-<<<<<<< HEAD
-            tileItemElement20.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Bottom;
-            tileItemElement20.Text = "Nhân Viên";
-            this.itemnv.Elements.Add(tileItemElement20);
-=======
             tileItemElement5.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Bottom;
             tileItemElement5.Text = "Nhân Viên";
             this.itemnv.Elements.Add(tileItemElement5);
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             this.itemnv.Id = 7;
             this.itemnv.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
             this.itemnv.Name = "itemnv";
@@ -234,47 +174,28 @@
             // 
             // itemanhchoivay
             // 
-<<<<<<< HEAD
             this.itemanhchoivay.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("itemanhchoivay.BackgroundImage")));
             this.itemanhchoivay.BackgroundImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Stretch;
-            tileItemElement21.Text = "<i>Open Day 2016 ^^</i>";
-            this.itemanhchoivay.Elements.Add(tileItemElement21);
-            this.itemanhchoivay.FrameAnimationInterval = 2000;
-            tileItemFrame5.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tileItemFrame5.BackgroundImage")));
-            tileItemElement22.Text = "<i>Open Day 2016 ^^</i>";
-            tileItemFrame5.Elements.Add(tileItemElement22);
-            tileItemFrame6.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tileItemFrame6.BackgroundImage")));
-            tileItemElement23.Text = "";
-            tileItemFrame6.Elements.Add(tileItemElement23);
-            tileItemFrame7.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tileItemFrame7.BackgroundImage")));
-            tileItemElement24.Text = "<i><color=red>I have a Linh :v</color></i>";
-            tileItemFrame7.Elements.Add(tileItemElement24);
-            tileItemFrame8.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tileItemFrame8.BackgroundImage")));
-            tileItemElement25.Text = "<b>20/11/2016</b><br><i><color=blue>Hài mặc áo xanh nhé a em ;;)</color></i>";
-            tileItemFrame8.Elements.Add(tileItemElement25);
-            this.itemanhchoivay.Frames.Add(tileItemFrame5);
-            this.itemanhchoivay.Frames.Add(tileItemFrame6);
-            this.itemanhchoivay.Frames.Add(tileItemFrame7);
-            this.itemanhchoivay.Frames.Add(tileItemFrame8);
-=======
-            this.itemanhchoivay.BackgroundImageScaleMode = DevExpress.XtraEditors.TileItemImageScaleMode.Stretch;
-            this.itemanhchoivay.CurrentFrameIndex = 1;
-            tileItemElement6.Text = "";
+            this.itemanhchoivay.CurrentFrameIndex = 3;
+            tileItemElement6.Text = "<b>20/11/2016</b><br><i><color=blue>Hài mặc áo xanh nhé a em ;;)</color></i>";
             this.itemanhchoivay.Elements.Add(tileItemElement6);
             this.itemanhchoivay.FrameAnimationInterval = 2000;
+            tileItemFrame1.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tileItemFrame1.BackgroundImage")));
             tileItemElement7.Text = "<i>Open Day 2016 ^^</i>";
             tileItemFrame1.Elements.Add(tileItemElement7);
+            tileItemFrame2.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tileItemFrame2.BackgroundImage")));
             tileItemElement8.Text = "";
             tileItemFrame2.Elements.Add(tileItemElement8);
+            tileItemFrame3.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tileItemFrame3.BackgroundImage")));
             tileItemElement9.Text = "<i><color=red>I have a Linh :v</color></i>";
             tileItemFrame3.Elements.Add(tileItemElement9);
+            tileItemFrame4.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("tileItemFrame4.BackgroundImage")));
             tileItemElement10.Text = "<b>20/11/2016</b><br><i><color=blue>Hài mặc áo xanh nhé a em ;;)</color></i>";
             tileItemFrame4.Elements.Add(tileItemElement10);
             this.itemanhchoivay.Frames.Add(tileItemFrame1);
             this.itemanhchoivay.Frames.Add(tileItemFrame2);
             this.itemanhchoivay.Frames.Add(tileItemFrame3);
             this.itemanhchoivay.Frames.Add(tileItemFrame4);
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             this.itemanhchoivay.Id = 10;
             this.itemanhchoivay.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
             this.itemanhchoivay.Name = "itemanhchoivay";
@@ -288,54 +209,33 @@
             this.itemdatetime.AppearanceItem.Normal.Options.UseBackColor = true;
             this.itemdatetime.AppearanceItem.Normal.Options.UseBorderColor = true;
             this.itemdatetime.AppearanceItem.Normal.Options.UseFont = true;
-<<<<<<< HEAD
-            tileItemElement26.Text = "";
-            tileItemElement26.TextLocation = new System.Drawing.Point(10, 20);
-            this.itemdatetime.Elements.Add(tileItemElement26);
-=======
             tileItemElement11.Text = "";
             tileItemElement11.TextLocation = new System.Drawing.Point(10, 20);
             this.itemdatetime.Elements.Add(tileItemElement11);
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             this.itemdatetime.Id = 9;
             this.itemdatetime.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
             this.itemdatetime.Name = "itemdatetime";
             // 
             // tileItem1
             // 
-<<<<<<< HEAD
-            tileItemElement27.Text = "Thống Kê";
-            this.tileItem1.Elements.Add(tileItemElement27);
-=======
             tileItemElement12.Text = "Thống Kê";
             this.tileItem1.Elements.Add(tileItemElement12);
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             this.tileItem1.Id = 12;
             this.tileItem1.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
             this.tileItem1.Name = "tileItem1";
             // 
             // tileItem3
             // 
-<<<<<<< HEAD
-            tileItemElement28.Text = "Đăng Nhập-Đăng Xuất";
-            this.tileItem3.Elements.Add(tileItemElement28);
-=======
             tileItemElement13.Text = "Đăng Nhập-Đăng Xuất";
             this.tileItem3.Elements.Add(tileItemElement13);
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             this.tileItem3.Id = 13;
             this.tileItem3.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
             this.tileItem3.Name = "tileItem3";
             // 
             // tileItem4
             // 
-<<<<<<< HEAD
-            tileItemElement29.Text = "Hóa Đơn Xuất";
-            this.tileItem4.Elements.Add(tileItemElement29);
-=======
             tileItemElement14.Text = "Hóa Đơn Xuất";
             this.tileItem4.Elements.Add(tileItemElement14);
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             this.tileItem4.Id = 14;
             this.tileItem4.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
             this.tileItem4.Name = "tileItem4";
@@ -430,20 +330,15 @@
             this.tabPage2.TabIndex = 1;
             this.tabPage2.Text = "tabPage2";
             this.tabPage2.UseVisualStyleBackColor = true;
+            this.tabPage2.Click += new System.EventHandler(this.tabPage2_Click);
             // 
             // itemloaisp
             // 
             this.itemloaisp.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("itemloaisp.BackgroundImage")));
             this.itemloaisp.BackgroundImageAlignment = DevExpress.XtraEditors.TileItemContentAlignment.TopCenter;
-<<<<<<< HEAD
-            tileItemElement30.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Bottom;
-            tileItemElement30.Text = "Loại Sản Phẩm";
-            this.itemloaisp.Elements.Add(tileItemElement30);
-=======
             tileItemElement15.ImageToTextAlignment = DevExpress.XtraEditors.TileControlImageToTextAlignment.Bottom;
             tileItemElement15.Text = "Loại Sản Phẩm";
             this.itemloaisp.Elements.Add(tileItemElement15);
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             this.itemloaisp.Id = 3;
             this.itemloaisp.ItemSize = DevExpress.XtraEditors.TileItemSize.Medium;
             this.itemloaisp.Name = "itemloaisp";

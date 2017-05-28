@@ -37,39 +37,23 @@
             this.chitietdonhang_thang = new System.Windows.Forms.LinkLabel();
             this.panel3 = new System.Windows.Forms.Panel();
             this.dtgv_kh = new System.Windows.Forms.DataGridView();
-<<<<<<< HEAD
             this.txtmakho = new System.Windows.Forms.TextBox();
             this.panel2 = new System.Windows.Forms.Panel();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.txtsldonhang_nam = new System.Windows.Forms.TextBox();
-            this.txtsldonhang_hang = new System.Windows.Forms.TextBox();
             this.txtdiadiem = new System.Windows.Forms.TextBox();
             this.label6 = new System.Windows.Forms.Label();
             this.txttenkho = new System.Windows.Forms.TextBox();
-=======
-            this.txtmakh = new System.Windows.Forms.TextBox();
-            this.panel2 = new System.Windows.Forms.Panel();
-            this.labtrongnam = new System.Windows.Forms.Label();
-            this.labsl1thang = new System.Windows.Forms.Label();
-            this.txtsldonhang_nam = new System.Windows.Forms.TextBox();
-            this.txtsldonhang_thang = new System.Windows.Forms.TextBox();
-            this.txtdiachi = new System.Windows.Forms.TextBox();
-            this.label6 = new System.Windows.Forms.Label();
-            this.txttenkh = new System.Windows.Forms.TextBox();
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             this.lblhoten = new System.Windows.Forms.Label();
             this.btnsua = new DevExpress.XtraEditors.SimpleButton();
             this.btnthem = new DevExpress.XtraEditors.SimpleButton();
             this.btnxoa = new DevExpress.XtraEditors.SimpleButton();
             this.btnluu_edit = new DevExpress.XtraEditors.SimpleButton();
             this.btnluu_add = new DevExpress.XtraEditors.SimpleButton();
-<<<<<<< HEAD
             this.txttinhtrang = new System.Windows.Forms.TextBox();
-=======
-            this.txtsdt = new System.Windows.Forms.TextBox();
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             this.label4 = new System.Windows.Forms.Label();
+            this.txtsldonhang_hang = new System.Windows.Forms.TextBox();
+            this.txtsldonhang_nam = new System.Windows.Forms.TextBox();
+            this.label3 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
             this.panel1.SuspendLayout();
             this.panel3.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dtgv_kh)).BeginInit();
@@ -83,11 +67,7 @@
             this.panel1.Dock = System.Windows.Forms.DockStyle.Top;
             this.panel1.Location = new System.Drawing.Point(0, 0);
             this.panel1.Name = "panel1";
-<<<<<<< HEAD
             this.panel1.Size = new System.Drawing.Size(676, 46);
-=======
-            this.panel1.Size = new System.Drawing.Size(672, 48);
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             this.panel1.TabIndex = 26;
             // 
             // txttimkiem
@@ -96,25 +76,13 @@
             this.txttimkiem.Name = "txttimkiem";
             this.txttimkiem.Size = new System.Drawing.Size(200, 20);
             this.txttimkiem.TabIndex = 9;
-<<<<<<< HEAD
-=======
-            this.txttimkiem.TextChanged += new System.EventHandler(this.txttimkiem_TextChanged);
-            this.txttimkiem.KeyPress += new System.Windows.Forms.KeyPressEventHandler(this.txttimkiem_KeyPress);
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             // 
             // label1
             // 
             this.label1.AutoSize = true;
-<<<<<<< HEAD
             this.label1.Location = new System.Drawing.Point(75, 22);
             this.label1.Name = "label1";
             this.label1.Size = new System.Drawing.Size(110, 13);
-=======
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
-            this.label1.Location = new System.Drawing.Point(63, 15);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(160, 20);
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             this.label1.TabIndex = 8;
             this.label1.Text = "Quản Lý Khách Hàng";
             // 
@@ -155,11 +123,6 @@
             this.chitietdonhang_thang.TabIndex = 25;
             this.chitietdonhang_thang.TabStop = true;
             this.chitietdonhang_thang.Text = "xem chi tiết";
-<<<<<<< HEAD
-=======
-            this.chitietdonhang_thang.Visible = false;
-            this.chitietdonhang_thang.LinkClicked += new System.Windows.Forms.LinkLabelLinkClickedEventHandler(this.chitietdonhang_thang_LinkClicked);
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             // 
             // panel3
             // 
@@ -176,7 +139,6 @@
             this.dtgv_kh.Name = "dtgv_kh";
             this.dtgv_kh.Size = new System.Drawing.Size(661, 248);
             this.dtgv_kh.TabIndex = 0;
-<<<<<<< HEAD
             // 
             // txtmakho
             // 
@@ -192,49 +154,22 @@
             this.panel2.Controls.Add(this.label3);
             this.panel2.Controls.Add(this.txtsldonhang_nam);
             this.panel2.Controls.Add(this.txtsldonhang_hang);
-=======
-            this.dtgv_kh.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.dtgv_kh_CellContentClick);
-            // 
-            // txtmakh
-            // 
-            this.txtmakh.Location = new System.Drawing.Point(432, 349);
-            this.txtmakh.Name = "txtmakh";
-            this.txtmakh.Size = new System.Drawing.Size(53, 20);
-            this.txtmakh.TabIndex = 0;
-            this.txtmakh.Visible = false;
-            // 
-            // panel2
-            // 
-            this.panel2.Controls.Add(this.labtrongnam);
-            this.panel2.Controls.Add(this.labsl1thang);
-            this.panel2.Controls.Add(this.txtsldonhang_nam);
-            this.panel2.Controls.Add(this.txtsldonhang_thang);
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             this.panel2.Controls.Add(this.panel1);
             this.panel2.Controls.Add(this.slnv);
             this.panel2.Controls.Add(this.lblloaisp);
             this.panel2.Controls.Add(this.label2);
             this.panel2.Controls.Add(this.chitietdonhang_thang);
-<<<<<<< HEAD
             this.panel2.Controls.Add(this.txtdiadiem);
             this.panel2.Controls.Add(this.label6);
             this.panel2.Controls.Add(this.panel3);
             this.panel2.Controls.Add(this.txtmakho);
             this.panel2.Controls.Add(this.txttenkho);
-=======
-            this.panel2.Controls.Add(this.txtdiachi);
-            this.panel2.Controls.Add(this.label6);
-            this.panel2.Controls.Add(this.panel3);
-            this.panel2.Controls.Add(this.txtmakh);
-            this.panel2.Controls.Add(this.txttenkh);
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             this.panel2.Controls.Add(this.lblhoten);
             this.panel2.Controls.Add(this.btnsua);
             this.panel2.Controls.Add(this.btnthem);
             this.panel2.Controls.Add(this.btnxoa);
             this.panel2.Controls.Add(this.btnluu_edit);
             this.panel2.Controls.Add(this.btnluu_add);
-<<<<<<< HEAD
             this.panel2.Controls.Add(this.txttinhtrang);
             this.panel2.Controls.Add(this.label4);
             this.panel2.Location = new System.Drawing.Point(1, 5);
@@ -242,86 +177,12 @@
             this.panel2.Size = new System.Drawing.Size(676, 676);
             this.panel2.TabIndex = 28;
             // 
-            // label5
-            // 
-            this.label5.AutoSize = true;
-            this.label5.Location = new System.Drawing.Point(140, 250);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(83, 13);
-            this.label5.TabIndex = 35;
-            this.label5.Text = "( trong năm nay)";
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(140, 201);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(128, 13);
-            this.label3.TabIndex = 35;
-            this.label3.Text = "( trong 1 tháng trở lại đây)";
-=======
-            this.panel2.Controls.Add(this.txtsdt);
-            this.panel2.Controls.Add(this.label4);
-            this.panel2.Location = new System.Drawing.Point(3, 3);
-            this.panel2.Name = "panel2";
-            this.panel2.Size = new System.Drawing.Size(672, 681);
-            this.panel2.TabIndex = 28;
-            // 
-            // labtrongnam
-            // 
-            this.labtrongnam.AutoSize = true;
-            this.labtrongnam.Location = new System.Drawing.Point(140, 250);
-            this.labtrongnam.Name = "labtrongnam";
-            this.labtrongnam.Size = new System.Drawing.Size(83, 13);
-            this.labtrongnam.TabIndex = 35;
-            this.labtrongnam.Text = "( trong năm nay)";
-            // 
-            // labsl1thang
-            // 
-            this.labsl1thang.AutoSize = true;
-            this.labsl1thang.Location = new System.Drawing.Point(140, 201);
-            this.labsl1thang.Name = "labsl1thang";
-            this.labsl1thang.Size = new System.Drawing.Size(128, 13);
-            this.labsl1thang.TabIndex = 35;
-            this.labsl1thang.Text = "( trong 1 tháng trở lại đây)";
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
-            // 
-            // txtsldonhang_nam
-            // 
-            this.txtsldonhang_nam.Location = new System.Drawing.Point(143, 266);
-            this.txtsldonhang_nam.Name = "txtsldonhang_nam";
-            this.txtsldonhang_nam.Size = new System.Drawing.Size(200, 20);
-            this.txtsldonhang_nam.TabIndex = 34;
-            // 
-<<<<<<< HEAD
-            // txtsldonhang_hang
-            // 
-            this.txtsldonhang_hang.Location = new System.Drawing.Point(143, 216);
-            this.txtsldonhang_hang.Name = "txtsldonhang_hang";
-            this.txtsldonhang_hang.Size = new System.Drawing.Size(200, 20);
-            this.txtsldonhang_hang.TabIndex = 31;
-            // 
             // txtdiadiem
             // 
             this.txtdiadiem.Location = new System.Drawing.Point(143, 164);
             this.txtdiadiem.Name = "txtdiadiem";
             this.txtdiadiem.Size = new System.Drawing.Size(200, 20);
             this.txtdiadiem.TabIndex = 26;
-=======
-            // txtsldonhang_thang
-            // 
-            this.txtsldonhang_thang.Location = new System.Drawing.Point(143, 216);
-            this.txtsldonhang_thang.Name = "txtsldonhang_thang";
-            this.txtsldonhang_thang.Size = new System.Drawing.Size(200, 20);
-            this.txtsldonhang_thang.TabIndex = 31;
-            // 
-            // txtdiachi
-            // 
-            this.txtdiachi.Location = new System.Drawing.Point(143, 164);
-            this.txtdiachi.Name = "txtdiachi";
-            this.txtdiachi.Size = new System.Drawing.Size(200, 20);
-            this.txtdiachi.TabIndex = 26;
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             // 
             // label6
             // 
@@ -331,21 +192,12 @@
             this.label6.Size = new System.Drawing.Size(0, 13);
             this.label6.TabIndex = 7;
             // 
-<<<<<<< HEAD
             // txttenkho
             // 
             this.txttenkho.Location = new System.Drawing.Point(143, 75);
             this.txttenkho.Name = "txttenkho";
             this.txttenkho.Size = new System.Drawing.Size(200, 20);
             this.txttenkho.TabIndex = 0;
-=======
-            // txttenkh
-            // 
-            this.txttenkh.Location = new System.Drawing.Point(143, 75);
-            this.txttenkh.Name = "txttenkh";
-            this.txttenkh.Size = new System.Drawing.Size(200, 20);
-            this.txttenkh.TabIndex = 0;
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             // 
             // lblhoten
             // 
@@ -363,10 +215,6 @@
             this.btnsua.Size = new System.Drawing.Size(98, 23);
             this.btnsua.TabIndex = 21;
             this.btnsua.Text = "Sửa";
-<<<<<<< HEAD
-=======
-            this.btnsua.Click += new System.EventHandler(this.btnsua_Click);
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             // 
             // btnthem
             // 
@@ -375,10 +223,6 @@
             this.btnthem.Size = new System.Drawing.Size(98, 23);
             this.btnthem.TabIndex = 23;
             this.btnthem.Text = "Thêm";
-<<<<<<< HEAD
-=======
-            this.btnthem.Click += new System.EventHandler(this.btnthem_Click);
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             // 
             // btnxoa
             // 
@@ -387,18 +231,10 @@
             this.btnxoa.Size = new System.Drawing.Size(98, 23);
             this.btnxoa.TabIndex = 20;
             this.btnxoa.Text = "Xóa";
-<<<<<<< HEAD
             // 
             // btnluu_edit
             // 
             this.btnluu_edit.Location = new System.Drawing.Point(563, 349);
-=======
-            this.btnxoa.Click += new System.EventHandler(this.btnxoa_Click);
-            // 
-            // btnluu_edit
-            // 
-            this.btnluu_edit.Location = new System.Drawing.Point(513, 347);
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             this.btnluu_edit.Name = "btnluu_edit";
             this.btnluu_edit.Size = new System.Drawing.Size(98, 23);
             this.btnluu_edit.TabIndex = 19;
@@ -412,7 +248,6 @@
             this.btnluu_add.Size = new System.Drawing.Size(98, 23);
             this.btnluu_add.TabIndex = 22;
             this.btnluu_add.Text = "Lưu";
-<<<<<<< HEAD
             // 
             // txttinhtrang
             // 
@@ -420,16 +255,6 @@
             this.txttinhtrang.Name = "txttinhtrang";
             this.txttinhtrang.Size = new System.Drawing.Size(200, 20);
             this.txttinhtrang.TabIndex = 3;
-=======
-            this.btnluu_add.Click += new System.EventHandler(this.btnluu_add_Click);
-            // 
-            // txtsdt
-            // 
-            this.txtsdt.Location = new System.Drawing.Point(143, 120);
-            this.txtsdt.Name = "txtsdt";
-            this.txtsdt.Size = new System.Drawing.Size(200, 20);
-            this.txtsdt.TabIndex = 3;
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             // 
             // label4
             // 
@@ -440,6 +265,38 @@
             this.label4.TabIndex = 7;
             this.label4.Text = "Số Điện Thoại";
             // 
+            // txtsldonhang_hang
+            // 
+            this.txtsldonhang_hang.Location = new System.Drawing.Point(143, 216);
+            this.txtsldonhang_hang.Name = "txtsldonhang_hang";
+            this.txtsldonhang_hang.Size = new System.Drawing.Size(200, 20);
+            this.txtsldonhang_hang.TabIndex = 31;
+            // 
+            // txtsldonhang_nam
+            // 
+            this.txtsldonhang_nam.Location = new System.Drawing.Point(143, 266);
+            this.txtsldonhang_nam.Name = "txtsldonhang_nam";
+            this.txtsldonhang_nam.Size = new System.Drawing.Size(200, 20);
+            this.txtsldonhang_nam.TabIndex = 34;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(140, 201);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(128, 13);
+            this.label3.TabIndex = 35;
+            this.label3.Text = "( trong 1 tháng trở lại đây)";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(140, 250);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(83, 13);
+            this.label5.TabIndex = 35;
+            this.label5.Text = "( trong năm nay)";
+            // 
             // KhachHang
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
@@ -447,10 +304,6 @@
             this.Controls.Add(this.panel2);
             this.Name = "KhachHang";
             this.Size = new System.Drawing.Size(678, 684);
-<<<<<<< HEAD
-=======
-            this.Load += new System.EventHandler(this.KhachHang_Load);
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
             this.panel1.ResumeLayout(false);
             this.panel1.PerformLayout();
             this.panel3.ResumeLayout(false);
@@ -472,39 +325,22 @@
         private System.Windows.Forms.LinkLabel chitietdonhang_thang;
         private System.Windows.Forms.Panel panel3;
         private System.Windows.Forms.DataGridView dtgv_kh;
-<<<<<<< HEAD
         private System.Windows.Forms.TextBox txtmakho;
         private System.Windows.Forms.Panel panel2;
         private System.Windows.Forms.TextBox txtdiadiem;
         private System.Windows.Forms.Label label6;
         private System.Windows.Forms.TextBox txttenkho;
-=======
-        private System.Windows.Forms.TextBox txtmakh;
-        private System.Windows.Forms.Panel panel2;
-        private System.Windows.Forms.TextBox txtdiachi;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox txttenkh;
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
         private System.Windows.Forms.Label lblhoten;
         private DevExpress.XtraEditors.SimpleButton btnsua;
         private DevExpress.XtraEditors.SimpleButton btnthem;
         private DevExpress.XtraEditors.SimpleButton btnxoa;
         private DevExpress.XtraEditors.SimpleButton btnluu_edit;
         private DevExpress.XtraEditors.SimpleButton btnluu_add;
-<<<<<<< HEAD
         private System.Windows.Forms.TextBox txttinhtrang;
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.TextBox txtsldonhang_nam;
         private System.Windows.Forms.TextBox txtsldonhang_hang;
-=======
-        private System.Windows.Forms.TextBox txtsdt;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label labtrongnam;
-        private System.Windows.Forms.Label labsl1thang;
-        private System.Windows.Forms.TextBox txtsldonhang_nam;
-        private System.Windows.Forms.TextBox txtsldonhang_thang;
->>>>>>> 3b0b7fe0145634a8d8755d54f98f624841f7be88
     }
 }
